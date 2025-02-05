@@ -1,0 +1,103 @@
+body{
+    height:100vh ;
+    width: 100vw;
+    background-color: rgb(203, 203, 203);
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+h2{
+    font-size: 10px;
+    margin: auto;
+    line-height: 20px;
+}
+h3{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+p.content{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 15px;
+}
+p{
+    margin: auto;
+}
+.danial-details{
+    font-size: 10px;
+    display: inline-block;
+}
+img{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 2%;
+    border-radius: 100rem;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(183, 181, 181);
+}
+.box-container{
+    height: 80vh;
+    width: 70vw;
+    background-color: rgb(203, 203, 203);
+    margin-top: 10vh;
+    margin-left: 15vw;
+    position: absolute;
+}
+.box-container1{
+    height: 50%;
+    width:50%;
+    background-color: rgb(147, 95, 231);
+    border-radius: 10px;
+    color: white;
+    float: left;
+    position: relative;
+    margin-right: 2%;
+}
+.box-container2{
+    height: 50%;
+    width: 21%;
+    background-color: #575768;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    margin-right: 2%;
+    position: relative;
+    display: inline-block;
+}
+.box-container3{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    color: black;
+    line-height: 20px;
+    border-radius: 10px;
+    float: right;
+    
+}
+.box-container4{
+    height: 46%;
+    width: 20%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    float: left;
+
+}
+.box-container5{
+    height: 46%;
+    width: 51%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+}

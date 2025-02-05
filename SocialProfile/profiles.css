@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color:white;
+}
+h2{
+    margin: auto;
+    margin-top: 5px;
+    font-family: math;
+}
+h4{
+    margin: auto;
+    margin-top: 5px;
+    color: yellowgreen;
+    font-family: math;
+}
+p.bottom-container{
+    margin-top: 20px;
+    font-family: Calibri;
+    text-align: center;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: #252525;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.profile-class{
+    text-align: center;
+}
+.bottom-container{
+    text-align: center;
+}
+.accounts-class:hover{ background-color:rgb(83, 128, 0);}
+.accounts-class{
+    height: 40px;
+    background-color: #413f3f;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.acc{
+    margin:auto;
+    padding:10px;
+}
