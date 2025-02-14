@@ -135,14 +135,14 @@ const booksData = [
 
 // 8. Challenge: Find the most popular book (based on average rating)
 // Write a JavaScript function getMostPopularBook that returns the book with the highest average rating.
-const getMostPopularBook=(books)=>{
-    return books.reduce((accBook,currBook)=>{
-        const avgofBookA=accBook.reviews.reduce((review1,review2)=>review1.rating+review2.rating)/accBook.reviews.length;
-        const avgofBookB=currBook.reviews.reduce((review1,review2)=>review1.rating+review2.rating)/currBook.reviews.length;
-        return avgofBookB>avgofBookA? currBook: accBook;
-    });
-}
-console.log(getMostPopularBook(booksData));
+// const getMostPopularBook=(books)=>{
+//     return books.reduce((accBook,currBook)=>{
+//         const avgofBookA=accBook.reviews.reduce((review1,review2)=>review1.rating+review2.rating)/accBook.reviews.length;
+//         const avgofBookB=currBook.reviews.reduce((review1,review2)=>review1.rating+review2.rating)/currBook.reviews.length;
+//         return avgofBookB>avgofBookA? currBook: accBook;
+//     });
+// }
+// console.log(getMostPopularBook(booksData));
 // // 7. Challenge: Get books with more than a certain number of reviews
 // // Write a JavaScript function getBooksWithMoreThanReviews that takes a number (e.g., 1) as input and returns all books that have more than the specified number of reviews.
 // const getBooksWithMoreThanReviews=(num,books)=>books.filter(book=>{
